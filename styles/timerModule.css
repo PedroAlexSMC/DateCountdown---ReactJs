@@ -1,0 +1,22 @@
+.timer-container {
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(7, 0.5fr);
+  text-align: center;
+}
+
+.timer-container section p {
+  font-weight: 700;
+  font-size: 25px;
+  color: #29676a;
+}
+
+.timer-container section p small {
+  font-weight: normal;
+}
+
+span {
+  font-weight: 700;
+  color: #29676a;
+}
